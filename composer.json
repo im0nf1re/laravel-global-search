@@ -1,0 +1,27 @@
+{
+    "name": "imonfire/laravel-global-search",
+    "description": "Search for all registered models",
+    "keywords": [
+        "imonfire",
+        "laravel-global-search"
+    ],
+    "homepage": "https://github.com/im0nf1re/laravel-global-search",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imonfire",
+            "email": "imonfire.prod@gmail.com",
+            "homepage": "https://github.com/im0nf1re/"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.78|^9.0|^10.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imonfire\\GlobalSearch\\": "src"
+        }
+    }
+}
